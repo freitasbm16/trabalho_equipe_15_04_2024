@@ -1,0 +1,22 @@
+git config --global user.name freitasbm16
+git config --global user.email freitasbm16@gmail.com
+-> Configura o usuário que fará o commit
+
+git clone endereço_git
+-> pega o repositório do remoto e faz o download dos arquivos para meu computador.
+
+git status
+-> Verifica os arquivos que foram modificados.
+
+git add .
+-> Adiciona todos os arquivos que foram modificados. Os pacotes foram guardados para serem enviados.
+
+git commit -m "Arquivo inicial para começar a fazer o html"
+-> Adiciona um texto descrevendo o que foi feito naquele momento
+
+git push origin main
+-> envia os arquivos comentados
+
+
+Quando o colaborador faz o commit, o comando atualiza o repositório
+git pull
